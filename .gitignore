@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.env
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# PDF/Image output (keep docs/ blueprints, ignore temp outputs)
+*.pdf
+!docs/*.pdf
+*.png
+!docs/*.png
+
+# Modal / Cloud temp files
+.modal/
